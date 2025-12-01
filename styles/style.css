@@ -172,10 +172,6 @@
   margin-block-end: 20px;
 }
 
-.optional-grid {
-  display: grid;
-}
-
 .section__content__list {
   display: grid;
   gap: 20px;
@@ -399,8 +395,6 @@
 
   .text-section {
     grid-template-columns: 1fr 2.06fr;
-    grid-auto-rows: min-content;
-    align-items: start;
   }
 
   .text-section__title {
@@ -430,9 +424,7 @@
   }
 
   .section__content__list {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
   }
 
   .section__content__list-item {
@@ -442,7 +434,6 @@
   .card {
     display: flex;
     flex-direction: column;
-    height: 100%;
   }
 
   .text-section__subtitle {
@@ -455,7 +446,6 @@
 
   .text-section__description {
     flex-grow: 1;
-    margin-block-end: 20px;
   }
 
   .footer {
